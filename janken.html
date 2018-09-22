@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>じゃんけん</title>
+    <link rel="stylesheet" href="css/janken.css">
+
+</head>
+<body>
+    <div class="imgarea">
+      <div class="upper">
+        <img src="poke/poke1.png" alt="">
+        <img src="poke/poke5.png" alt="">
+      </div>
+      <div class="under">
+        <img src="poke/poke2.png" alt="">
+        <img id="img3" src="poke/poke3.png" alt="">
+      </div>
+    </div>
+    <div class="textarea">
+      <img id="command" src="poke/poke4.png" alt="">
+      <ul class="content">
+        <li id="name"></li>
+        <li class="hand" id="gu" value="0">
+          <p class="handtext">▶グー</p>
+
+        </li>
+        <li class="hand" id="choki" value="1">
+          <p class="handtext">▶チョキ</p>
+
+        </li>
+        <li class="hand" id="pa" value="2">
+          <p class="handtext">▶パー</p>
+
+        </li>
+      </ul>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="janken.js"></script>
+</body>
+</html>

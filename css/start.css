@@ -1,0 +1,28 @@
+@font-face {
+  font-family:'poke';
+  src:local('PKMN Regular 標準'),url('pkmn_r.woff');
+
+}
+body{
+  font-family: 'poke';
+}
+h1{
+  text-align:center;
+  margin-top:50px;
+}
+input{
+  display: block;
+  height: 40px;
+  width: 140px;
+  margin:0 auto;
+}
+a{
+  font-size:28px;
+  text-align: center;
+  padding-top:15px;
+  display: block;
+  height: 50px;
+  margin:30px auto;
+  width:100px;
+  border:solid ;
+}

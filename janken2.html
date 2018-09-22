@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>じゃんけん</title>
+    <link rel="stylesheet" href="janken.css">
+
+</head>
+<body>
+    <h1>じゃんけん</h1>
+    <div class="imgarea">
+      <div class="upper">
+        <img src="poke/poke1.png" alt="">
+        <img src="poke/poke5.png" alt="">
+      </div>
+      <div class="under">
+        <img src="poke/poke2.png" alt="">
+        <img id="img3" src="poke/poke3.png" alt="">
+      </div>
+    </div>
+    <div class="textarea">
+      <img id="command" src="poke/poke4.png" alt="">
+      <ul>
+        <li class="hand" id="gu" value="0">
+          <p class="handtext">グー</p>
+          <img src="https://www.sozai-library.com/wp-content/uploads/2016/12/9344-112x84.jpg" alt="">
+        </li>
+        <li class="hand" id="choki" value="1">
+          <p class="handtext">チョキ</p>
+          <img src="https://www.sozai-library.com/wp-content/uploads/2016/12/9356-112x84.jpg" alt="">
+        </li>
+        <li class="hand" id="pa" value="2">
+          <p class="handtext">パー</p>
+          <img src="https://www.sozai-library.com/wp-content/uploads/2016/12/9357-112x84.jpg" alt="">
+        </li>
+      </ul>
+    </div>
+    
+
+    <div class="result">
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="janken.js"></script>
+</body>
+</html>

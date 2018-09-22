@@ -1,0 +1,53 @@
+@font-face {
+  font-family:'poke';
+  src:local('PKMN Regular 標準'),url('pkmn_r.woff');
+
+}
+body{
+  font-family: 'poke';
+  margin:0 auto;
+  width:80%;
+  font-family:
+}
+.upper{
+  width:100%;
+  display:flex;
+  justify-content: space-around;
+}
+.under {
+  width:100%;
+  display:flex;
+  justify-content: space-around;
+
+}
+#img3{
+  padding-top:300px;
+}
+#command{
+
+  width:80%;
+  height: 400px;
+  margin:0 auto;
+  justify-content: space-around;
+}
+.textarea{
+  position: relative;
+  padding-left:80px;
+}
+.textarea ul{
+  margin:20px 50px;
+  position:absolute;
+  top: 20px;
+  left:250px;
+  list-style: none;
+  font-size:40px;
+}
+.textarea li{
+  width:400px;
+  height:50px;
+
+}
+.hand{
+  cursor:pointer;
+  width:45%;
+}
